@@ -1,0 +1,483 @@
+/* 
+    Document   : Site
+    Created on : 09-Jul-2011, 21:41:29
+    Author     : CEO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+	background: #FFF;
+	text-align: center;
+	color: #00F;
+	line-height: normal;
+	font-family: Tahoma, Arial, helvetica, sans-serif;
+	font-size: 1em;
+	font-size: x-large;
+	min-width: 1000px;
+	font-weight: 900;
+	text-transform: capitalize;
+	border: thin outset #CCC;
+	vertical-align: middle;
+	height: auto;
+	top: 20px;
+}
+.button
+{
+	background-color:#E47000;
+	color:#FFF;
+	text-align:center;
+	font-size:large;
+}
+.button2
+{
+	background-color:#E47000;
+	color:#00C;
+	text-align:center;
+	font-size:x-large;
+	font-weight: 900;
+	text-decoration: underline;
+	word-spacing: 1em;
+}
+select {
+	font-family: Tahoma, Arial, helvetica, sans-serif; font-size: 1em;
+}
+textarea {
+	font-family: Tahoma, Arial, helvetica, sans-serif; font-size: 1em;
+}
+#header
+{
+	position:absolute;
+	left:377px;
+	top:15px;
+	width:520px;
+	height:60px;
+	z-index:1;
+	background-color: #E47000;
+	color: #FFF;
+	font-size: x-large;
+	font-weight: 900;
+	line-height: 50px;
+	word-spacing: 3pt;
+}
+#Schoolheader
+{
+	position:absolute;
+	left:377px;
+	top:210px;
+	width:520px;
+	height:60px;
+	z-index:1;
+	background-color: #E47000;
+	color: #FFF;
+	font-size: x-large;
+	font-weight: 900;
+	line-height: 50px;
+	word-spacing: 3pt;
+}
+#content
+{
+	position:absolute;
+	left:380px;
+	top:300px;
+	width:526px;
+	height:56px;
+	z-index:2;
+	color: #E47000;
+	font-size: medium;
+}
+#img
+{
+    position:absolute;
+	left:100px;
+	top:11px;
+	width:1108px;
+	height:197px;
+	z-index:1;
+}
+#form1
+{
+	position:absolute;
+	left:101px;
+	top:311px;
+	width:1108px;
+	height:744px;
+	z-index:2;
+	background-color: #E47000;
+}
+#form_preview1
+{
+	position:absolute;
+	left:101px;
+	top:311px;
+	width:1108px;
+	height:744px;
+	z-index:2;
+	background-color: #E47000;
+}
+#form_preview2
+{
+	position:absolute;
+	left:101px;
+	top:311px;
+	width:1108px;
+	height:744px;
+	z-index:2;
+	background-color: #E47000;
+}
+#form_preview3
+{
+	position:absolute;
+	left:101px;
+	top:311px;
+	width:1108px;
+	height:744px;
+	z-index:2;
+	background-color: #E47000;
+}
+#formHeader1
+{
+	position:absolute;
+	left:365px;
+	top:13px;
+	width:366px;
+	height:50px;
+	z-index:3;
+	background-color: #FFFFFF;
+	line-height:50px;
+	font-weight: 900;
+	color: #E47000;
+	font-size: x-large;
+	visibility: visible;
+}
+#formHeader2
+{
+	position:absolute;
+	left:365px;
+	top:13px;
+	width:366px;
+	height:50px;
+	z-index:3;
+	background-color: #FFFFFF;
+	line-height:50px;
+	font-weight: 900;
+	color: #E47000;
+	font-size: x-large;
+	visibility: visible;
+}
+#formHeader3
+{
+	position:absolute;
+	left:365px;
+	top:13px;
+	width:366px;
+	height:50px;
+	z-index:3;
+	background-color: #FFFFFF;
+	line-height:50px;
+	font-weight: 900;
+	color: #E47000;
+	font-size: x-large;
+	visibility: visible;
+}
+#formContent1
+ {
+	position:absolute;
+	left:89px;
+	top:104px;
+	width:941px;
+	height:625px;
+	z-index:3;
+	background-color: #FFFFFF;
+	color: #E47000;
+	line-height: normal;
+	font-size: medium;
+ }
+ #formC_preview_1
+ {
+	position:absolute;
+	left:89px;
+	top:104px;
+	width:941px;
+	height:625px;
+	z-index:3;
+	background-color: #FFFFFF;
+	color: #E47000;
+	line-height: normal;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+ }
+ #formContent2
+ {
+	position:absolute;
+	left:88px;
+	top:88px;
+	width:941px;
+	height:268px;
+	z-index:3;
+	background-color: #FFFFFF;
+	color: #E47000;
+ }
+ #formContect,p
+ {
+	font-family: Tahoma, Arial, helvetica, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	color: #F00;
+	line-height: normal;
+}
+#msg {
+	position:absolute;
+	left:120px;
+	top:64px;
+	width:740px;
+	height:44px;
+	z-index:3;
+	color: #00F;
+	font-size: medium;
+}
+#error {
+	position:absolute;
+	left:303px;
+	top:-27px;
+	width:346px;
+	height:22px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-size: medium;
+	line-height: 20px;
+	font-weight: 700;
+	color: #F00;
+}
+.td1
+{
+	border:thick outset #CCC;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	text-transform: capitalize;
+	color: #F00;
+}
+.td2
+{
+	border:thick inset #CCC;
+	font-size: 18px;
+	font-weight: 900;
+	color: #F00;
+	text-decoration: underline;
+}
+#consoleLogo {
+	position:absolute;
+	left:422px;
+	top:13px;
+	width:485px;
+	height:auto;
+	z-index:1;
+	border: 5px outset #DF3929;
+	color: #FFF;
+	background-color: #E47000;
+}
+#section1 {
+	color:#E47000;
+	position:absolute;
+	left:1px;
+	top:1px;
+	width:162px;
+	height:24px;
+	z-index:3;
+	background-color: #FFFFFF;
+	line-height: normal;
+	font-size: medium;
+}
+#menuBar {
+	position:absolute;
+	left:189px;
+	top:174px;
+	width:800px;
+	height:90px;
+	z-index:2;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #FFF;
+	border-right-color: #E47000;
+	border-bottom-color: #E47000;
+	border-left-color: #FFF;
+}
+#appContent {
+	position:absolute;
+	left:57px;
+	top:293px;
+	width:1108px;
+	height:550px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	color: #DF3929;
+	float:left;
+	line-height: normal;
+}
+#searchContent {
+	position:absolute;
+	left:57px;
+	top:293px;
+	width:1108px;
+	height:392px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	color: #DF3929;
+	float:left;
+	line-height: normal;
+}
+#enContent {
+	position:absolute;
+	left:57px;
+	top:293px;
+	width:1108px;
+	height:550px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	color: #DF3929;
+	float:left;
+	line-height: normal;
+	font-size: medium;
+}
+#searchContent {
+	position:absolute;
+	left:57px;
+	top:293px;
+	width:1108px;
+	height:516px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	color: #DF3929;
+	float:left;
+	line-height: normal;
+	font-size: medium;
+}
+#pwContent {
+	position:absolute;
+	left:57px;
+	top:293px;
+	width:1108px;
+	height:392px;
+	z-index:3;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	color: #DF3929;
+	float:left;
+	line-height: normal;
+	font-size: medium;
+}
+#menuItem {
+	position:absolute;
+	left:13px;
+	top:7px;
+	width:792px;
+	height:85px;
+	z-index:4;
+	line-height: 50px;
+	font-size: x-large;
+	overflow: visible;
+	text-align: center;
+	float: left;
+	margin:0;
+	text-decoration: underline;
+	color: #FFF;
+	background-color: #E47000;
+}
+.cap
+{
+	color:#E47000;
+	font-size: medium;
+	font-weight: 500;
+}
+.menuHover
+{
+	background-color:#FFF;
+	color:#DF3929;
+}
+.menuHovered
+{
+	color:#FFF;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: #FFF;
+	border-right-color: #E47000;
+	border-bottom-color: #E47000;
+	border-left-color: #FFF;
+	background-color: #E47000;
+}
+#consoleLogo, h1
+{
+	color:#FFF;
+	line-height: 90px;
+	font-weight: 900;
+	vertical-align: baseline;
+	border-top-color: #E47000;
+	border-right-color: #E47000;
+	border-bottom-color: #E47000;
+	border-left-color: #E47000;
+	font-size: medium;
+}
+.odd
+{
+	background-color:#E47000;
+	color: #FFF;
+}
+.even
+{
+	background-color:#FC0;
+	color:#E47000 ;
+}
+.mHover
+{
+	background-color:#6F0;
+	color:#FFF;
+}
+#IMGPRE {
+	position:absolute;
+	left:624px;
+	top:5px;
+	width:260px;
+	height:230px;
+	z-index:3;
+	border: thick outset #CCC;
+}
+#consoleLogoSum
+{
+	position:absolute;
+	left:422px;
+	top:13px;
+	width:260px;
+	height:170px;
+	z-index:1;
+	border: 5px outset #DF3929;
+	color: #FFF;
+	background-color: #E47000;
+}
